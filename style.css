@@ -1,0 +1,142 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+	text-decoration: none;
+    cursor: pointer;
+    color: #fff;
+    margin-left: 10px;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+	margin: 0;
+	letter-spacing: 0.05em;
+}
+
+ul, ol, li {
+	list-style: none;
+}
+
+img {
+	vertical-align: top;
+}
+
+.t-white {
+	color: #fff;
+}
+
+.container {
+    margin: 0 auto;
+    padding-left: 100px; 
+}
+
+.main {
+    padding-left: 600px;
+}
+
+.title {
+    font-weight: 600;
+    font-size: 48px;
+    padding-bottom: 20px;
+    padding-top: 100px;
+}
+
+.sub-title {
+    font-weight: 400;
+    font-size: 32px;
+}
+
+.profile-photo {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.photo {
+    width: 300px;
+}
+
+.section-title {
+    font-weight: 500;
+    font-size: 40px;
+    text-transform: uppercase;
+    padding-top: 100px;
+    padding-bottom: 45px;
+}
+
+.info-me {
+    font-size: 24px;
+    line-height: 28px;
+    width: 300px;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.parent {
+    position: relative;
+    background-color: #e7c9bb;
+    max-width: 1600px;
+    height: 300px;
+    padding-left: 700px;
+    margin-top: 50px;
+}
+
+.child {
+    width: 450px;
+    height: 600%;
+    margin: -5vw 8vw;
+    background-color: #6e9b9b;
+    padding-top: 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.div-section-title {
+    display: flex;
+    align-items: baseline;
+}
+
+.vector {
+    width: 70px;
+    height: 40px;
+    margin-right: 20px;
+}
+
+.edu-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.edu-title {
+    font-weight: 500;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.edu-info {
+    width: 510px;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.m-buttom {
+    margin-bottom: 25px;
+}
+
+.section-item {
+    margin-bottom: 15px;
+}
